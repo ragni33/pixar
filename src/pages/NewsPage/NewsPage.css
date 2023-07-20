@@ -1,0 +1,43 @@
+.news-page {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .news-page h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .articles {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
+  
+  .article {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 5px;
+    text-align: left;
+  }
+  
+  .article h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .article p {
+    margin-bottom: 1rem;
+  }
+  
+  .article .date {
+    font-style: italic;
+    color: #888;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .articles {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  

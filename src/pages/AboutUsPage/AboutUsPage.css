@@ -1,0 +1,44 @@
+.about-us-page {
+    padding: 2rem;
+    margin: 5%;
+  }
+  
+  .section {
+    margin-bottom: 2rem;
+  }
+  
+  .section-content {
+    text-align: center;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .col-lg-6,
+  .col-md-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  
+  .about-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+  
+  .about-text {
+    padding: 0 1rem;
+    text-align: justify;
+  }
+  
+  .about-text h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .about-text p {
+    margin-bottom: 0.5rem;
+  }
+  
